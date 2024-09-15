@@ -1,0 +1,900 @@
+/* CREATED BY:- YASH SHARMA */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:baseline;
+    color: black;
+    
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    margin-left: 260px;
+}
+.navbar h2{
+   margin-left: 180px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+   font-weight: 500;
+   margin-top: 35px;
+   font-weight: 700;
+
+}
+.navbar ul a{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 25px;
+}
+/* title section */
+
+.title{
+    height: 580px;
+    width: 1550px;
+    border: 1px solid black;
+    border-top: none;
+    display: flex;
+}
+.title .title-1{
+    height: 510px;
+    width: 1000px;
+    padding-left: 30px;
+    padding-top: 70px;
+    padding-right: 15px;
+    }
+.title .title-2{
+    height: 580px;
+    width: 500px;
+
+}
+.title-1 .hello {
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: 650;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.title-1 .data{
+    font-size: 3.75rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    margin-top: 0%;
+
+}
+.title-1 .data-2{
+    font-size: 3.7rem;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    margin-top: 0%;
+}
+.title-1 .data-3{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.title-1 .data-4{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+    gap: 80px;
+}
+
+.title-1 .data-4 .bt{
+    height: 70px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.title-1 .data-4 .Add{
+    height: 70px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* title 2 */
+.title-2 .image{
+    background-image: url(yash.png);
+    background-size: cover;
+    height: 570px;
+    width: 300px;
+    margin-top: 0px;
+    filter: drop-shadow(2px 2px 20px rgb(1,5,4));
+}
+/* about */
+#about{
+    background-color: #333;
+    height: 550px;
+    width: 1350px;
+    padding: 80px 50px 100px 150px;
+    display: flex;
+
+}
+#about .part-1{
+    height: 500px;
+    width: 600px;
+}
+
+#about .part-2{
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .image{
+    height: 400px;
+    width: 550px;
+    border: 8px solid pink;
+    border-radius: 70%;
+    box-shadow: 2px 2px 35px rgb(235,52,225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .image .image-y{
+    background-image: url(yash3.png);
+    background-size: cover;
+    height: 385px;
+    width: 205px;
+    filter: drop-shadow(15px 15px 40px rgb(50,76,168));
+    cursor: pointer;
+}
+#about .heading{
+    height: 80px;
+    width: 600px;
+    font-size: 4rem;
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-seri8;
+}
+#about .heading .p1{
+    color: white;
+    font-weight: 700;
+}
+#about .heading .p2{
+    color: blue;
+    font-weight: 700;
+
+}
+#about .heading-2{
+    height: 80px;
+    width: 600px;
+    color: white;
+    margin-top: 35px;
+    font-size: 1.75rem;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+}
+
+#about .heading-2 .p3{
+    color: white;
+}
+#about .heading-2 .p4{
+    color: blue;
+}
+#about .p5{
+    font-size: 28px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 10px;
+    justify-content: center;
+}
+#about .button{
+    height: 80px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+#about button{
+    height: 60px;
+    width: 170px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+/* CONTENT */
+.content{
+    height: 700px;
+    width: 1550px;
+    background-color: #333;
+}
+.content .skills{
+    height: 60px;
+    width: 1550px;
+    display: flex;
+    gap: 10px;
+    /* margin-left: 600px; */
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: underline 3px solid #03fc45;
+}
+.content .skills .p1{
+    font-size: 4rem;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 0;
+}
+.content .skills .p2{
+    font-size: 4rem;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 0;
+}
+#container{
+    margin-top: 30px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .html{
+    height: 250px;
+    width: 500px;
+}
+.content .html-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content .html-image .image{
+    background-image: url(html.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+.content .Css{
+    height: 250px;
+    width: 500px;
+}
+.content .Css-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .Css-image .image{
+    background-image: url(Css.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+.content .Javascript{
+    height: 250px;
+    width: 500px;
+}
+.content .Javascript-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .Javascript-image .image{
+    background-image: url(javascript2.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+.content .Python{
+    height: 250px;
+    width: 500px;
+}
+.content .Python-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .Python-image .image{
+    background-image: url(python.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+.content .java{
+    height: 250px;
+    width: 500px;
+}
+.content .java-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .java-image .image{
+    background-image: url(java.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+.content .c{
+    height: 250px;
+    width: 500px;
+}
+.content .c-image{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.content .c-image .image{
+    background-image: url(c++.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 3px;
+}
+.content .Lorem{
+    height: 100px;
+    width: 100%;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    padding-top: 0px;
+}
+/* SERVICES */
+
+.services{
+    height: 700px;
+    width: 1510px;
+    background-color: #333;
+    padding: 50px 20px 20px 20px;
+
+}
+.line{
+    height: 120px;
+    width: 1550px;
+    display: flex;
+    gap: 10px;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline px solid green;
+}
+.line .p1{
+    color: white;
+
+}
+.line .p2{
+    color: blue;
+    
+}
+.services .data{
+    height: 500px;
+    width: 1550px;
+    display: flex;
+    padding-top: 60px;
+    gap: 15px;
+    
+}
+/* ONE */
+.services .data .one{
+    height: 350px;
+    width: 430px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(31, 41, 54);
+}
+.services .data .one .image{
+    height: 60px;
+    width: 450px;
+}
+.services .data .one .image i{
+    font-size: 3rem;
+    color: blue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.services .data .one h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.data .one p{
+    height: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.data .one h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* TWO */
+
+.services .data .two{
+    height: 350px;
+    width: 430px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(31, 41, 54);
+
+}
+.services .data .two .image-2{
+    height: 60px;
+    width: 450px;
+}
+.services .data .two .image-2 i{
+    font-size: 3rem;
+    color: blue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.services .data .two h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.data .two p{
+    height: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.data .two h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* THREE */
+.services .data .three{
+    height: 350px;
+    width: 430px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(31, 41, 54);
+
+}
+.services .data .three .image-3{
+    height: 60px;
+    width: 450px;
+}
+.services .data .three .image-3 i{
+    font-size: 3rem;
+    color: blue;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.services .data .three h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.data .three p{
+    height: 150px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.data .three h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* WORK */
+.work{
+    height: 650px;
+    width: 1550px;
+    background-color: #333;
+}
+.line{
+    height: 200px;
+    width: 1550px;
+    justify-content: center;
+    text-align: center;
+}
+.line .p3{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.line .p4{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: blue;
+}
+.data-7{
+    height: 500px;
+    width: 1550px;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    gap: 40px;
+}
+.data-7 .one{
+    height: 350px;
+    width: 450px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+}
+.data-7 .one .image{
+    margin-top: 0px;
+    background-image: url(laptop.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+
+}
+.data-7 .one .image p{
+    padding-top: 150px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.data-7 .one .image h4{
+
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.data-7 .two{
+    height: 350px;
+    width: 450px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.data-7 .two .image{
+    margin-top: 0px;
+    background-image: url(mobile.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+
+}
+.data-7 .two .image p{
+    padding-top: 150px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.data-7 .two .image h4{
+
+    font-size: 18px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.data-7 .three{
+    height: 350px;
+    width: 450px;
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+}
+.data-7 .three .image{
+    margin-top: 0px;
+    background-image: url(graphics.webp);
+    background-size: cover;
+    height: 350px;
+    width: 450px;
+
+}
+.data-7 .three .image p{
+    padding-top: 150px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.data-7 .three .image h4{
+
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+/* CONNECT */
+.connect{
+    height: 740px;
+    width: 1550px;
+    background-color: #333;
+}
+.connect .heading{
+    padding-top: 50px;
+    height: 150px;
+    width: 1550px;
+    display: flex;
+    gap: 10px;
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    justify-content: center;
+
+}
+.connect .heading .p5{
+    color: white;
+}
+.connect .heading .p6{
+    color: blue;
+}
+.format{
+    height: 500px;
+    width: 1550px;
+    justify-content: center;
+}
+.format .base{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.format .base .Name{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgb(78, 85, 107);
+    color: white;
+}
+.format .base .Email{
+    height: 60px;
+    width: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgb(78, 85, 107);
+    color: white;
+}
+.format .base .Phone{
+    height: 60px;
+    width: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgb(78, 85, 107);
+    color: white;
+}
+.format .base .Message {
+    height: 60px;
+    width: 500px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgb(78, 85, 107);
+    color: white;
+}
+.format .base .submit{
+    padding-top: 5px;
+    height: 100px;
+    width: 1550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.format .base .submit button{
+    height: 60px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.format .app{
+    height: 60px;
+    width: 920px;
+    font-size: 50px;
+    gap: 5px;
+    padding-left: 600px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 0.5px solid gray;
+    font-weight: 700;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.format .app a{
+    color: white;
+    margin-left: 5px;
+    font-weight: 700;
+
+}
