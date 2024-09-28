@@ -120,6 +120,8 @@ body{
     height: 570px;
     width: 300px;
     margin-top: 0px;
+    }
+.title-2 .image:hover{
     filter: drop-shadow(2px 2px 20px rgb(1,5,4));
 }
 /* about */
@@ -896,5 +898,8 @@ body{
     color: white;
     margin-left: 5px;
     font-weight: 700;
-
+}
+.app a:hover {
+    transition: all .9s ease-in;
+    transform: rotateY(360deg);
 }
